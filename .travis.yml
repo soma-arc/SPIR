@@ -1,0 +1,10 @@
+sudo: false
+language: cpp
+compiler:
+    - gcc
+script:
+  - mkdir build
+  - cd build
+  - ../configure
+  - make
+  - make install
