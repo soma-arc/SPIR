@@ -18,6 +18,6 @@ install:
   - if [ "$CXX" == "clang++" ]; then export CXX="clang++-3.4"; fi
   - ls /usr/local
   - ls /usr/local/bin
-  - ls /usr/local/clang
-  - ls /usr/local/clang-3.4
-  - export CLANG_PATH_TO_LLVM_BUILD="/usr/local/bin"
+  - ls /usr/local/clang/bin
+  - ls /usr/local/clang-3.4/bin
+  - export CLANG_PATH_TO_LLVM_BUILD="/usr/local/clang/bin"
